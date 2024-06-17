@@ -137,8 +137,8 @@ const handleImageUpload = (event) => {
 
 const uploadImagesToS3 = async (images) => {
   AWS.config.update({
-    accessKeyId: 'AKIA2UC3E6PENA4EJDTR',
-    secretAccessKey: '/4KjvIbqlBKjnyEQSb9mP0IJB/osxogtGcIPeBx0',
+    accessKeyId: 'removed',
+    secretAccessKey: 'removed',
     region: 'eu-north-1' // Your AWS region
   });
 
